@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        p{
+            border: 1px solid#000;
+            margin: 20px;
+        }
+        .box1{
+            text-indent: 30px;
+        }
+        .box2{
+            text-indent:50px;
+        }
+        .box3{
+            text-indent:-20px;
+        }
+        .box4{
+            text-indent:-50px;
+        }
+        em{
+            /* 인라인 요소는 컨텐츠 공간 이외에 공간이 없어 text-indent(들여쓰기) 불가능 */
+            /* text-indent:50px; */
+
+            /* 때문에 padding-left로 들여쓰기를 대체한다 */
+            padding-left:50px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p class="box1">안녕하세요</p>
+    <p class="box2">안녕하세요</p>
+    <p class="box3">안녕하세요</p>
+    <p class="box4">안녕하세요</p>
+    <em>나는 인라인</em>
+
+
+    <pre>
+        들여쓰기 : 
+        text-indent : px
+        양수 : 들여쓰기
+        음수 : 내여쓰기
+    </pre>
+</body>
+</html>

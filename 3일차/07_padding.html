@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            margin: 20px;
+        }
+        .box1{}
+        .box2{padding: 20px; }
+        .box3{padding: 20px; box-sizing:border-box; }
+        .box4{padding: 20px; box-sizing: content-box;}
+    </style>
+</head>
+<body>
+    <div class="box1">test</div>
+    <div class="box2">test</div>
+    <div class="box3">test</div>
+    <div class="box4">test</div>
+
+
+    <pre>
+        padding : padding을 사용하면 컨텐츠 너비, 높이가 변경된다.
+
+        예) 너비 100 / 높이 100 : 디자인
+            + 패딩 20
+            = 총너비 140 / 총높이 140
+            
+            ?해결 - 디자인과 동일하게 작업 
+            너비 60 / 높이 60 / 패딩 20
+
+            box-sizing : border-box
+            너비와 높이 안에 (100/100) 패딩과 보더를 포함한다.
+    </pre>
+</body>
+</html>
