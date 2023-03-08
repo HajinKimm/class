@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- dl은 dt와 dd의 자식만 올 수 있고 dl 자손으로 p태그 등은 올 수 없다. ul안에도 p태그 불가 -->
+    <dl>
+        <dt>html이란</dt>
+        <dd>html설명</dd>
+        <dt>javascript</dt>
+        <dd>javascript설명</dd>
+        <dt>react</dt>
+        <dd>react설명</dd>
+        <!-- 여기에 <p>태그 올 수 없음 -->
+    </dl>
+
+
+<!-- 다른방식으로 입력 01 -->
+    <dl>
+        <dt>용어</dt>
+        <dd>설명</dd>
+        <dt>용어</dt>
+        <dd>설명</dd>
+    </dl>
+    
+    <!-- 여기에서 dl = div / dt = h2 / dd = p -->
+    <div>
+        <h2>용어</h2>
+        <p>설명</p>
+        <h2>용어</h2>
+        <p>설명</p>
+        </div>
+        
+
+<!-- 다른방식으로 입력 02 -->
+    <dl>
+        <dt>용어</dt>
+        <dd>설명</dd>
+        <dd>설명</dd>
+        <dd>설명</dd>
+        <dd>설명</dd>
+    </dl>
+
+
+    <!-- 위와 같은 개념 -->
+    <dl>
+        <dt>용어</dt>
+        <dd>
+            <ul>
+                <li>설명</li>
+                <li>설명</li>
+                <li>설명</li>
+                <li>설명</li>
+            </ul>
+        </dd>
+    </dl>
+
+</body>
+</html>
