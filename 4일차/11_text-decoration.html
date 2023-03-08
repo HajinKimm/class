@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .box{width: 390px; margin: 20px; font-size: 20px;}
+        .box1{text-decoration: underline; }
+        .box2{text-decoration: overline;}
+        .box3{text-decoration: line-through;}
+    </style>
+</head>
+<body>
+     <div class="box box1">
+        Lorem ipsum dolor sit
+     </div>
+     <div class="box box2">
+        Lorem ipsum dolor sit
+     </div>
+     <div class="box box3">
+        Lorem ipsum dolor sit
+     </div>
+
+    <pre>
+        ------------------
+        text-decoration
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+
+        text-decoration: underline;
+            디자인적으로 사용하지 않는다
+
+        text-decoration: none; *
+
+        접근성 : 
+            - 포털사이트(네이버/네이트/구글/다음..)는 마우스 올렸을 떄 밑줄생김 : hover
+            - 일반사이트 : x
+
+        링크 : a (자동으로 선이 있음)
+            선을 없애고 싶으면 text-decoratiom: none; 처리
+            a는 컬러가 상속되지 않는다
+            반드시 a에서 컬러를 변경한다
+
+        text-decoration: underline; 아랫선
+        text-decoration: overline; 윗선
+        text-decoration: none; 선없애기
+        text-decoration: line-through; 취소선
+
+    </pre>
+</body>
+</html>

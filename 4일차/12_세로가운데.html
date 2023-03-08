@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .box{width: 200px; height: 100px; border: 1px solid #000; margin: 30px; font-size: 20px; text-align: center;}
+        .box1{
+            /* 한줄(일때만) : 세로 가운데정렬 */
+            /* line-height(행간):높이를 같게 쓰면 가운데로 온다 */
+            line-height: 100px;
+        }
+        .box2{
+            /* 여러줄일때 padding으로 처리 */
+            padding-top: 20px; 
+            box-sizing: border-box;
+            width: 250px;
+            word-break: keep-all;
+        }
+        .box3{
+            /* 높이-(글자+글자자체행간)/2 */
+            padding: 38px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+     <div class="box box1">내용</div>
+     <div class="box box2">오늘은 수요일 입니다.오늘은 수요일 입니다.</div>
+     <div class="box box3">내용</div>
+    <pre>
+        ------------------
+
+    </pre>
+</body>
+</html>
