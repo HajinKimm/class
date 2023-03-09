@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .con-box{
+            width: 600px;
+            margin: auto;
+        }
+        .con-box .box{
+            width: 200px;
+            height: 150px;
+            border: 1px solid #000;
+            display: inline-block;
+            margin: 15px;
+        }
+        .con-box .box1{
+            overflow: visible;
+        }
+        .con-box .box2{
+            overflow: hidden;
+        }
+        .con-box .box3{
+            overflow: auto;
+        }
+        .con-box .box4{overflow: scroll;}
+        .con-box .box5{
+            /* overflow-x: visible; */
+            overflow-y:hidden;
+        }
+        .con-box .box6{}
+    </style>
+</head>
+<body>
+     <div class="con-box">
+        <div class="box box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+        <div class="box box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+        <div class="box box3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+        <div class="box box4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+        <div class="box box5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+        <div class="box box6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consequatur? Laudantium delectus inventore officiis atque. Nesciunt delectus eveniet, atque distinctio, iure recusandae sit doloremque pariatur accusantium, tempore amet. Voluptates, eum!
+        </div>
+     </div>
+    <pre>
+        ------------------
+        overflow : 
+        visible : 기본값
+        hidden : **영역까지만 보이기 (넘치는 내용은 안보임)
+        scroll : 스크롤생성(상하, 좌우 모두)
+        auto : 예시)회원가입 약관에 주로 사용
+                내용이 많으면 자동으로 스크롤 필요한 부분에 생성
+
+        overflow-x / overflow-y
+    </pre>
+</body>
+</html>

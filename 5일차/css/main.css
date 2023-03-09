@@ -1,0 +1,23 @@
+#wrap{width: 100%;} /*해상도대응*/
+
+#header{width: 100%; background: #EF9A9A;}
+#header .inner{width: 1170px; height: 120px; margin: auto; background: #E53935;}
+
+#visual{width: 100%; background: #F48FB1;}
+#visual .inner{width: 1170px; height: 720px; background: #E91E63; margin: auto;}
+
+#content{}
+#content .con1{width: 100%; background: #b39ddb;}
+#content .con1 .inner{width: 1170px; height: 90px; background: #673AB7; margin: auto;}
+
+#content .con2{width: 100%; background: #90CAF9;}
+#content .con2 .inner{width: 1170px; height: 940px; margin: auto; background: #2196F3;}
+
+#content .con3{width: 100%; background: #80CBC4;}
+#content .con3 .inner{width: 1170px; height: 710px; margin: auto; background: #009688;}
+
+#content .con4{width: 100%; background: #C5E1A5;}
+#content .con4 .inner{width: 1170px; height: 720px; margin: auto; background:  #8BC34A;}
+
+#footer{width: 100%; background: #FFF59D;}
+#footer .inner{width: 1170px; height: 320px; margin: auto; background:#FDD835;}

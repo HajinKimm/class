@@ -1,0 +1,26 @@
+#wrap{width: 100%;} /*해상도대응*/
+
+/* 공통부분 */
+.inner{width: 1170px; margin: auto;}
+
+#header{width: 100%; background: #EF9A9A;}
+#header .inner{ height: 120px;  background: #E53935;}
+
+#visual{width: 100%; background: #F48FB1;}
+#visual .inner{ height: 720px; background: #E91E63; }
+
+#content{}
+#content .con1{width: 100%; background: #b39ddb;}
+#content .con1 .inner{ height: 90px; background: #673AB7; }
+
+#content .con2{width: 100%; background: #90CAF9;}
+#content .con2 .inner{ height: 940px; background: #2196F3;}
+
+#content .con3{width: 100%; background: #80CBC4;}
+#content .con3 .inner{ height: 710px;  background: #009688;}
+
+#content .con4{width: 100%; background: #C5E1A5;}
+#content .con4 .inner{ height: 720px;  background:  #8BC34A;}
+
+#footer{width: 100%; background: #FFF59D;}
+#footer .inner{ height: 320px;  background:#FDD835;}
